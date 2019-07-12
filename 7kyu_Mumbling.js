@@ -42,14 +42,9 @@ Test.describe("accum", function() {
 // solution
 
 function accum(s) {
-  let result = "";
-
-  s.split("").forEach((letter, index) => {
-    const repeated = letter.repeat(index + 1);
-    const capitalized = repeated.charAt(0).toUpperCase() + repeated.slice(1).toLowerCase();
-    const dashed = index === 0 ? capitalized : `-${capitalized}`;
-    result += dashed;
-  });
-
-  return result;
+  return s
+    .split("")
+    .map((letter, index) => letter.repeat(index + 1)) // to repeat
+    .map(repeated => repeated.charAt(0).toUpperCase() + repeated.slice(1).toLowerCase()) // to capitalize
+    .join("-"); // to join with "-"
 }
