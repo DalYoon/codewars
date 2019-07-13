@@ -1,4 +1,4 @@
-function duplicateEncode(word) {
+const duplicateEncode = word => {
   const letters = word.toLowerCase().split(""); // lowercase string to array
 
   return letters
@@ -9,6 +9,6 @@ function duplicateEncode(word) {
     )
     .map(result => (result ? ")" : "(")) // convert status to ")" or "("
     .join(""); // array to string
-}
+};
 
-module.exports = duplicateEncode;
+export default duplicateEncode;

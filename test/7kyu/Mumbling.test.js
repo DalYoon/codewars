@@ -1,4 +1,4 @@
-const accum = require("../../practice/7kyu/Mumbling");
+import accum from "../../practice/7kyu/Mumbling";
 
 test("Basic tests", () => {
   expect(accum("ZpglnRxqenU")).toBe(

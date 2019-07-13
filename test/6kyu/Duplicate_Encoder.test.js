@@ -1,4 +1,4 @@
-const duplicateEncode = require("../../practice/6kyu/Duplicate_Encoder");
+import duplicateEncode from "../../practice/6kyu/Duplicate_Encoder";
 
 test("should ignore case", () => {
   expect(duplicateEncode("din")).toBe("(((");
