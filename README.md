@@ -48,3 +48,21 @@ Assertion messages may be unclear about what they display in some languages. If 
 
   </p>
 </details>
+
+<details>
+  <summary>20190714 / 7kyu - Isograms - JS</summary>
+  <p>
+
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+```js
+isIsogram("Dermatoglyphics") == true;
+isIsogram("aba") == false;
+isIsogram("moOse") == false; // -- ignore letter case
+```
+
+[My Practice](https://github.com/DalYoon/codewars/blob/master/practice/7kyu/Isograms.js) <br/>
+[Test Code](https://github.com/DalYoon/codewars/blob/master/test/7kyu/Isograms.test.js)
+
+  </p>
+</details>
