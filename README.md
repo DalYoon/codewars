@@ -72,3 +72,26 @@ isIsogram("moOse") == false; // -- ignore letter case
 
   </p>
 </details>
+
+<details>
+  <summary>
+    <b>20190715 / 6kyu - Sort the odd - JS</b>
+  </summary>
+  <p>
+
+You have an array of numbers.
+Your task is to sort ascending odd numbers but even numbers must be on their places.
+
+Zero isn't an odd number and you don't need to move it. If you have an empty array, you need to return it.
+
+#### Example
+
+```js
+sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4];
+```
+
+<!-- [My Practice](https://github.com/DalYoon/codewars/blob/master/practice/7kyu/Isograms.js) <br/>
+[Test Code](https://github.com/DalYoon/codewars/blob/master/test/7kyu/Isograms.test.js) -->
+
+  </p>
+</details>
