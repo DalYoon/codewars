@@ -90,8 +90,8 @@ Zero isn't an odd number and you don't need to move it. If you have an empty arr
 sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4];
 ```
 
-<!-- [My Practice](https://github.com/DalYoon/codewars/blob/master/practice/7kyu/Isograms.js) <br/>
-[Test Code](https://github.com/DalYoon/codewars/blob/master/test/7kyu/Isograms.test.js) -->
+[My Practice](https://github.com/DalYoon/codewars/blob/master/practice/6kyu/Sort_the_odd.js) <br/>
+[Test Code](https://github.com/DalYoon/codewars/blob/master/test/6kyu/Sort_the_odd.test.js)
 
   </p>
 </details>
