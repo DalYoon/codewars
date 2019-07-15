@@ -95,3 +95,19 @@ sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4];
 
   </p>
 </details>
+
+<details>
+  <summary>
+    <b>20190716 / 7kyu - Vowel Count - JS</b>
+  </summary>
+  <p>
+
+Return the number (count) of vowels in the given string.
+We will consider a, e, i, o, and u as vowels for this Kata.
+The input string will only consist of lower case letters and/or spaces.
+
+<!-- [My Practice](https://github.com/DalYoon/codewars/blob/master/practice/6kyu/Sort_the_odd.js) <br/>
+[Test Code](https://github.com/DalYoon/codewars/blob/master/test/6kyu/Sort_the_odd.test.js) -->
+
+  </p>
+</details>
