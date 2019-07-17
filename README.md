@@ -155,11 +155,8 @@ What is an anagram? Well, two words are anagrams of each other if they both cont
 
 ```javascript
 "abba" & ("baab" == true);
-
 "abba" & ("bbaa" == true);
-
 "abba" & ("abbba" == false);
-
 "abba" & ("abca" == false);
 ```
 
