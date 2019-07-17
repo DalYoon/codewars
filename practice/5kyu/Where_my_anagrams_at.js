@@ -1,4 +1,5 @@
 // yeah i'm fuckin idiot
+// just split, sort, join were all i needed
 
 const anagrams = (word, words) => {
   const wordCounts = getSpellCounts(word);
