@@ -173,3 +173,26 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 
   </p>
 </details>
+
+<details>
+  <summary>
+    <b>20190722 / Reverse polish notation calculator - JS</b>
+  </summary>
+  <p>
+
+Your job is to create a calculator which evaluates expressions in Reverse Polish notation.
+
+For example expression `5 1 2 + 4 * + 3 -` (which is equivalent to `5 + ((1 + 2) * 4) - 3` in normal notation) should evaluate to `14`.
+
+For your convenience, the input is formatted such that a space is provided between every token.
+Empty expression should evaluate to `0`.
+
+Valid operations are `+`, `-`, `*`, `/`.
+
+You may assume that there won't be exceptional situations (like stack underflow or division by zero).
+
+[My Practice](https://github.com/DalYoon/codewars/blob/master/practice/6kyu/Reverse_polish_notation_calculator.js) <br/>
+[Test Code](https://github.com/DalYoon/codewars/blob/master/test/6kyu/Reverse_polish_notation_calculator.test.js)
+
+  </p>
+</details>
