@@ -176,7 +176,7 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 
 <details>
   <summary>
-    <b>20190722 / Reverse polish notation calculator - JS</b>
+    <b>20190722 / 6kyu - Reverse polish notation calculator - JS</b>
   </summary>
   <p>
 
@@ -199,7 +199,7 @@ You may assume that there won't be exceptional situations (like stack underflow 
 
 <details>
   <summary>
-    <b>20190723 / The Supermarket Queue - JS</b>
+    <b>20190723 / 6kyu - The Supermarket Queue - JS</b>
   </summary>
   <p>
 
